@@ -1,0 +1,26 @@
+User
+ ├── AuditLog
+ ├── Citizen
+ │      └── CitizenDocument
+ │
+ ├── EligibilityCheck
+ │
+ ├── Allocation
+ │
+ ├── Audit
+ │
+ └── Notification
+
+
+Citizen
+   └── HousingApplication
+          └── EligibilityCheck
+                └── Allocation
+                      └── HousingUnit
+                            └── HousingProject
+                                   └── Resource
+
+
+Side Modules
+ ├── ComplianceRecord
+ └── Report
